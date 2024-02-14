@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E485BDB32B7D13AE00FB6113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485BDB22B7D13AE00FB6113 /* AppDelegate.swift */; };
 		E485BDB52B7D13AE00FB6113 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485BDB42B7D13AE00FB6113 /* SceneDelegate.swift */; };
-		E485BDB72B7D13AE00FB6113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485BDB62B7D13AE00FB6113 /* ViewController.swift */; };
 		E485BDBA2B7D13AE00FB6113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485BDB82B7D13AE00FB6113 /* Main.storyboard */; };
 		E485BDBC2B7D13AF00FB6113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E485BDBB2B7D13AF00FB6113 /* Assets.xcassets */; };
 		E485BDBF2B7D13AF00FB6113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E485BDBD2B7D13AF00FB6113 /* LaunchScreen.storyboard */; };
+		E485BDC72B7D13F800FB6113 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485BDC62B7D13F800FB6113 /* CardSelectionVC.swift */; };
+		E485BDCB2B7D2BD400FB6113 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485BDCA2B7D2BD400FB6113 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E485BDAF2B7D13AE00FB6113 /* CardWorkoutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkoutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E485BDB22B7D13AE00FB6113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E485BDB42B7D13AE00FB6113 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E485BDB62B7D13AE00FB6113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E485BDB92B7D13AE00FB6113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E485BDBB2B7D13AF00FB6113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E485BDBE2B7D13AF00FB6113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E485BDC02B7D13AF00FB6113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E485BDC62B7D13F800FB6113 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		E485BDCA2B7D2BD400FB6113 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				E485BDB22B7D13AE00FB6113 /* AppDelegate.swift */,
 				E485BDB42B7D13AE00FB6113 /* SceneDelegate.swift */,
-				E485BDB62B7D13AE00FB6113 /* ViewController.swift */,
+				E485BDC62B7D13F800FB6113 /* CardSelectionVC.swift */,
 				E485BDB82B7D13AE00FB6113 /* Main.storyboard */,
 				E485BDBB2B7D13AF00FB6113 /* Assets.xcassets */,
 				E485BDBD2B7D13AF00FB6113 /* LaunchScreen.storyboard */,
 				E485BDC02B7D13AF00FB6113 /* Info.plist */,
+				E485BDCA2B7D2BD400FB6113 /* Deck.swift */,
 			);
 			path = CardWorkoutGame;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E485BDB72B7D13AE00FB6113 /* ViewController.swift in Sources */,
+				E485BDCB2B7D2BD400FB6113 /* Deck.swift in Sources */,
 				E485BDB32B7D13AE00FB6113 /* AppDelegate.swift in Sources */,
 				E485BDB52B7D13AE00FB6113 /* SceneDelegate.swift in Sources */,
+				E485BDC72B7D13F800FB6113 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
